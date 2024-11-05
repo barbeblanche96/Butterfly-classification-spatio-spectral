@@ -1,7 +1,7 @@
 
 # Butterfly Recognition With Raw Spatio-spectral Images
 
-This project describes a Novel Statistical Framework for Butterfly Species Recognition Using Raw Spatio-Hyperspectral Images. This project presents all the codes implemented for the experiments conducted in this [paper](). The experiments were carried out on four butterfly species: Hypolimnas Misippus (HM), Danaus Chrysippus (DC), Amauris Ochlea (AO), and Acraea Egina (AE).
+This project describes a Novel Statistical Framework for Butterfly Species Recognition Using Raw Spatio-Hyperspectral Images. This project presents all the codes implemented for the experiments conducted in this [paper](). The experiments were carried out on four butterfly species: Hypolimnas Misippus (HM), Danaus Chrysippus (DC), Amauris Ochlea (AO), and Acraea Egina (AE). The project has been conducted under the financial support of International Institute of Tropical Agriculture (IITA) in Benin.
 
 ## Dataset
 Download the dataset from the following [link](https://zenodo.org/records/14004272) and unzip it in the root directory of the project.

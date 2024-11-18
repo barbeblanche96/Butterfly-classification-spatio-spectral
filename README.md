@@ -1,17 +1,17 @@
 
 # Butterfly Recognition With Raw Spatio-spectral Images
 
-This project describes a Novel Statistical Framework for Butterfly Species Recognition Using Raw Spatio-Hyperspectral Images. This project presents all the codes implemented for the experiments conducted in this [paper](). The experiments were carried out on four butterfly species: Hypolimnas Misippus (HM), Danaus Chrysippus (DC), Amauris Ochlea (AO), and Acraea Egina (AE). The project has been conducted under the financial support of International Institute of Tropical Agriculture (IITA) in Benin.
+This project describes a Novel Statistical Framework for Butterfly Species Recognition Using Raw Spatio-Hyperspectral Images. This project presents all the codes implemented for the experiments. The experiments were carried out on four butterfly species: Hypolimnas Misippus (HM), Danaus Chrysippus (DC), Amauris Ochlea (AO), and Acraea Egina (AE). The project has been conducted under the financial support of International Institute of Tropical Agriculture (IITA) in Benin.
 
 ## Dataset
-Download the dataset from the following [link](https://zenodo.org/records/14004272) and unzip it in the root directory of the project.
+By using the following [link](https://zenodo.org/records/14004272) click on the download button located on the middle page. Then, unzip it in the root directory of the project.
 
 ## Repository organization
 
 - `classification_test/` : Contains raw spatio-spectral images related to the testing of classification models.
   - `{species}/` : Contains the raw images for each butterfly `{species}`
   
-- `datacube/` : Contains hyperspectral datacubes for each species, used to estimate Gaussian distribution parameters.
+- `datacube/` : Contains hyperspectral datacubes for each species, used to estimate Gaussian distribution parameters in offline.
   - `{species}/cube {#No}` : Contains the specific datacube for the butterfly `{species}`
       - `{filename}.dat` : Data file containing the primary spectral information of the butterfly `{species}`.
       - `{filename}.dat.hdr` : Header file containing metadata for the corresponding `{filename}.dat` file, including information about dimensions, wavelengths, and other important parameters.
@@ -61,6 +61,7 @@ To add Gaussian noise to the images to evaluate performance in the presence of n
 # No noise added to images.
 # You can specify any value in dB
 noise_in_db = None
+#noise_in_db = 15
 ```
 ## Additional Notes
 

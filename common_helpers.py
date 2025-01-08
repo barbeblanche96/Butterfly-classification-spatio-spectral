@@ -318,7 +318,7 @@ def compute_perf(t, performances):
             else:
                 vis['incorrect'] = vis['incorrect'] + 1
                 general['incorrect'] = general['incorrect'] + 1
-        elif p[0] =='vis, ':
+        else:
             nir['total'] = nir['total'] + 1
             if p[1] == p[-1]:
                 nir['correct'] = nir['correct'] + 1
